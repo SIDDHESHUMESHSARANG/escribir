@@ -1,0 +1,60 @@
+.editor-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ececec;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.editor-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 60px;
+}
+
+.editor {
+  width: 90%;
+  max-width: 800px;
+  height: 80vh;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  overflow-y: auto;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+.ql-toolbar {
+  position: fixed;
+  top: 120px;
+  left: 50.55%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 800px;
+  border-radius: 5px 5px 0 0;
+  background: #f8f9fa;
+  z-index: 1000;
+}
